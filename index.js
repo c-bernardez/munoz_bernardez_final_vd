@@ -127,7 +127,7 @@ function init() {
           y: d=>d.loudness+15,
           //anchor: "middle",
           fill: "#625a7d",
-          fontsize:15,
+          fontSize:15,
           title: (d) => [d.name, d.artist].join(", de ")
         })
       ),
