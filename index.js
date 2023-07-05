@@ -165,7 +165,7 @@ function init() {
 
           
 
-          Plot.ruleY([meanLoudness], {stroke: "red", strokeOpacity:0.5, strokeWidth:1}),
+          Plot.ruleY([meanLoudness+14], {stroke: "red", strokeOpacity:0.5, strokeWidth:1}),
           //Plot.ruleX([1], {stroke: "red",strokeOpacity:0.3}),
     ],
     });
