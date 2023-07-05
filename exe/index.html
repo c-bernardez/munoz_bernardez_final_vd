@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title> PROTOTIPO </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Merriweather:wght@300;400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+    <div class id="chart"></div>
+  </head>
+  <body>
+    <div class="inicio" style="background-color: #3C374C;">
+    <header class="header">
+        <div class="border">
+          <img class="LogoSecundarioDiTellaBlanco1" style="width: 33px; height: 29px; left: 35px; top: 18px; position: absolute" src="../logos/logoUTDT.png" />
+          <div class="Line2" style="width: 25px; height: 0px; left: 84px; top: 45px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border: 0.50px #FF9900 solid"></div>
+          <img class="Pngwing1" style="width: 86px; height: 70px; left: 93px; top: -9px; position: absolute" src="../logos/logoSpotify.png" /></div>
+    </header>
+    <main class="border">
+      <div class="container">
+        <h1 class="hero-title">HORA A HORA,<br>UN VIAJE MUSICAL <br> A LO LARGO DEL DÍA <br> EN SPOTIFY</h1>
+        <p class="hero-text">Te damos la bienvenida a UTDT Study de Spotify: una exploración continua de tu viaje musical durante el día. En cada gráfico, analizamos millones de datos y descubrimos estadísticas nuevas para ayudar a conocer como es tu día en Spotify.</p>
+        <p class="hero-text align-right">
+          Desplázate para explorar /
+        </p>
+      </div>
+    </main>
+    
+  </div>
+
+  
+
+
+<section id="scrolly">
+  <article>
+    <div class="step" data-step="morning" data-color=#EDB274>
+      <div class="step-content">
+        <p>Tus mañanas están marcadas por música ruidosa, ideal para despertarse y prepararse para el día. En este horario sueles saltear canciones que no te interesan</p>
+      </div>
+    </div>
+    <div class="step" data-step="noon" data-color="#749BC7">
+      <div class="step-content">
+        <p>En tus tardes de estudio prefieres música más tranquila. Estás demasiado concentrado como para preocuparte de saltear o repetir canciones</p>
+      </div>
+    </div>
+    <div class="step" data-step="night"data-color="#072457">
+      <div class="step-content">
+        <p>La noche es un momento de exploración: escuchas varias canciones por poco tiempo, y si no te gustan, pasas a la siguiente</p>
+      </div>
+    </div>
+    <div class="final"></div>
+  </article>
+ 
+  <figure></figure>
+</section>
+ 
+ <div class="conclusion">
+  <p>
+    Tu viaje musical a lo largo del día en Spotify refleja una experiencia sensorial única y personalizada. Desde las mañanas con música ruidosa que te despierta y prepara para el día, hasta las tardes de estudio con melodías tranquilas que fomentan la concentración, y las noches de exploración musical. Cada etapa de tu día está marcada por un estilo musical específico, adaptándose a tus necesidades y preferencias en cada momento. ¡Disfruta de tu viaje musical personalizado que te acompaña en cada paso del día en Spotify!
+  </p>
+ </div>
+    
+    </main>
+
+    <div class="explicacion">
+      <div class="viajeSemanal">TU VIAJE A LO LARGO DE LA SEMANA</div>
+      <div class="img" style="text-align: center">
+        <img class="Caminospotify1" style="width: 911px; height: 1203px; text-align: center" src="../logos/caminospotify.png" /></div>
+      <div class="diaSemanaMasMusica">¿En qué momento escuchaste más música?</div>
+      <div class="heatMap">
+        <div id="dias-chart"></div>
+      </div>
+      <div class="conclusionHeatMap">Disfrutas de tus amplios gustos musicales en todo momento de todos los días, pero si tuvieras que elegir el momento ideal es a la tarde. 
+      </div>
+      <div class="diaSemanaMasMusica">¿En que se diferencian las canciones que más escuchaste?</div>
+      <div class="diaSemanaMasMusica tortaCami">
+        <div class="grid-container">
+          <div class="chartTorta">
+            <div class="chart-container">
+              <div class="chart-label">
+                79%
+              </div>
+            <canvas id="chart2" width="300" height="300"></canvas>
+          </div>
+          <div style ="clear:both">
+            <div class="chart-text">
+              Energía
+            </div>
+          </div>
+          </div>
+          <div class="chartTorta">
+
+            <div class="chart-container">
+              <div class="chart-label">
+                55%
+              </div>
+            <canvas id="chart3" width="300" height="300"></canvas>
+          </div>
+          <div style ="clear:both">
+            <div class="chart-text">
+              Ruidosa
+            </div>
+          </div>
+
+
+          </div>
+          
+          <div class="chartTorta">
+
+
+            <div class="chart-container">
+              <div class="chart-label">
+                57%
+              </div>
+            <canvas id="chart4" width="300" height="300"></canvas>
+          </div>
+          <div style ="clear:both">
+            <div class="chart-text">
+              Popularidad
+            </div>
+          </div>
+
+
+
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="diaSemanaMasMusica">TOP 10 CANCIONES DEL MES</div>
+      <div class="visualizacion">
+        <img src="../logos/visualizacion.png"></div>
+      <div class="visualizacion refs">
+        <img src="../logos/refs.png">
+      </div>
+        <section class="spikes"></section>
+      <div class="footer">
+        <img class="logoSpotifyBlanco" style="width: 130px; height: 106px" src="../logos/blanco1.png" />
+        <img class="logoDitellaBlanco" style="width: 49px; height: 43px;" src="../logos/blanco2.png" />
+        <div class="Instagram">Instagram</div>
+        <div class="Instagram">Twitter</div>
+        <div class="Instagram">Top 10 Argentina</div>
+        <div class="SpotifyAndDiTella">© 2023 Spotify and Di Tella</div>
+        <div class="a">a</div>
+
+      </div>
+
+    </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script type="module" src="index.js"></script>
+    <script src="../scripts/heatmap.js"></script>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/pop.js"></script>
+    <script src="../scripts/loud.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+  </body>
+</html>
+
+
+
+
+
